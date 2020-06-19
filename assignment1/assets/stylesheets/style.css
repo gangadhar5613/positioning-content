@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*===========================================
+   Main Part
+============================================*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #EFEFEF;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    
+    
+}
+
+
+
+
+/*========================
+   Header Part
+==========================*/
+header{
+    margin: 10px;
+}
+
+header h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+    color: #333333;
+}
+
+
+
+/*==================================
+       Main Part 
+=================================*/
+.container{
+    max-width: 75%;
+    background-color: white;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 1%;
+    color: #444444;
+    
+
+}
+img{
+    width: 400px;
+}
+ h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #444444;
+    padding: 20px;
+    
+   
+    
+    
+ }
+ul{
+    padding: 20px;
+    
+}
+li{
+    padding: 3px;
+    font-size: 20px;
+    font-weight:700;
+}
+.col{
+    float: left;
+}
+.col-1{
+    width: 25%;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width:20%;
+
+}
+.col-3{
+    font-size: 25px;
+    
+
+}
+.col-2 p,.col-3 p{
+    font-weight: 700;
+}
+
+.col p{
+ padding: 10px;
+ 
+}
+.col-1,.col-3{
+    margin-top: 5%;
+}
+.para{
+    width: 90%;
+    text-align: justify;
+    margin-left: 4%;
+}
+
+    
+
+.parent::before,.parent::after{
+    content: "";
+    display: table;
+
+}
+.parent::after{
+    clear: both;
+}
