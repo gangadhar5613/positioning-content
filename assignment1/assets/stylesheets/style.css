@@ -106,11 +106,16 @@ img{
     font-weight: 800;
     color: #444444;
     padding: 20px;
-    
-   
-    
-    
  }
+  
+
+a{
+    text-decoration: none;
+    color: #444444;
+
+} 
+    
+ 
 ul{
     padding: 20px;
     
@@ -118,7 +123,7 @@ ul{
 li{
     padding: 3px;
     font-size: 20px;
-    font-weight:700;
+    font-weight: 200;
 }
 .col{
     float: left;
@@ -149,6 +154,7 @@ li{
 .col-1,.col-3{
     margin-top: 5%;
 }
+
 .para{
     width: 90%;
     text-align: justify;
